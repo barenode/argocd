@@ -18,7 +18,7 @@ metadata:
     app: sample-app
   name: sample-app
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: sample-app
@@ -28,5 +28,5 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: argoproj/rollouts-demo:blue
+      - image: argoproj/rollouts-demo:green
         name: sample-app
