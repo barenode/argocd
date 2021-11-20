@@ -28,5 +28,5 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: argoproj/rollouts-demo:green
+      - image: argoproj/rollouts-demo:blue
         name: sample-app

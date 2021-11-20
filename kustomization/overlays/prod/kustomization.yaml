@@ -7,4 +7,4 @@ replicas:
   name: sample-app
 images:
 - name: argoproj/rollouts-demo:CHANGEME
-  newTag: green
+  newTag: blue
