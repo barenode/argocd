@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../../base
 replicas:
-- count: 5
+- count: 3
   name: sample-app
 images:
 - name: argoproj/rollouts-demo:CHANGEME
